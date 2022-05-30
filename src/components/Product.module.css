@@ -1,0 +1,27 @@
+.product{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid blue; */
+    padding: 30px;
+    border-radius: 10%;
+    /* margin: 50px; */
+ 
+}
+.flexBox{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    box-shadow: 2px 2px 2px  lightgray ;
+    text-align: center;
+    padding: 50px;
+    /* background-color: ghostwhite; */
+    border-radius: 10%;
+}
+.innerP{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid blue;
+    border-radius: 10%;
+}
